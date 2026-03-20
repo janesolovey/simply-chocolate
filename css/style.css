@@ -1,0 +1,387 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Monsterrat", sans-serif;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-general-link {
+    color: #111;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.nav-simply {
+    font-style: italic;
+}
+
+.nav-ul {
+    display: flex;
+    margin-left: 188px;
+    gap: 24px;
+}
+
+.nav-links {
+    color: #111;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 114.286% */
+    letter-spacing: -0.28px;
+    display: block;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.hero {}
+
+.container-hero {
+    width: 1136px;
+    height: 600px;
+    padding: 381px 612px 117px 40px;
+    background-color: #1E1823;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.00), rgba(17, 17, 17, 0.40)),
+        url(../images/hero-chocolate-covered.png);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 72px;
+}
+
+.hero-title {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    /* 121.429% */
+    letter-spacing: -0.84px;
+}
+
+.buy-now {
+    border-radius: 100px;
+    min-width: 144px;
+    min-height: 45px;
+    background: #FD9222;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.how-made {
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    min-width: 183px;
+    min-height: 45px;
+    padding: 14px 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: transparent;
+}
+
+.scroll {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.42px;
+    border: none;
+    background: transparent;
+}
+
+.container-about {
+    background-color: #1E1823;
+    padding: 50px;
+    width: 1200px;
+    height: 344px;
+    margin-bottom: 128px;
+}
+
+.about-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.about-ul {
+    display: flex;
+    gap: 88px;
+}
+
+.about-list {
+    width: calc((100% - 88px * 2) / 3);
+    position: relative;
+}
+
+.about-list:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 124px;
+    background-color: rgba(255, 255, 255, 0.50);
+    right: -18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.about-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+
+.about-text {
+    color: #ffffffb3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.about-round {
+    width: 62px;
+    height: 62px;
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.container-taste {
+    width: 1176px;
+    height: 476px;
+    margin-bottom: 128px;
+}
+
+.taste-title {
+    color: #111;
+    width: 411px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+
+}
+
+.taste-orange {
+    color: #FD9222;
+}
+
+.taste-subtitle {
+    color: #111;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    display: block;
+    margin: 28px auto 50px;
+    width: 486px;
+}
+
+.taste-ul {
+    display: flex;
+    gap: 19px;
+}
+
+.taste-list {
+    display: flex;
+    padding: 28px 36px 28px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    width: 270px;
+    height: 270px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.taste-list:hover .second-layer {
+    transform: translateY(0)
+}
+
+.list-chocolate {
+    border-radius: 15px;
+    background-color: #FD9222;
+    color: #FFF;
+
+}
+
+.list-milk {
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background-color: #FFF;
+    color: #111;
+}
+
+.list-nuts {
+    border-radius: 15px;
+    background-color: #1E1823;
+    color: #FFF;
+}
+
+.list-cocoa {
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background: #FFF;
+}
+
+.second-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background-color: #FFF;
+    top: 0;
+    left: 0;
+    padding: 28px;
+    transform: translateY(100%);
+    transition: transform 300ms linear;
+}
+
+.second-title {
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.btn-chocolate {
+    border-radius: 35px;
+    background-color: #FD9222;
+    border: none;
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+}
+
+.btn-benefits {
+    border-radius: 35px;
+    border: 1px solid #FD9222;
+    background-color: #FAFAFA;
+    color: #111;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+}
+
+
+.second-text {
+    color: #111;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    text-transform: none;
+    margin-top: 14px;
+}
+
+.container-made{
+    width: 1136px;
+    height: 478px;
+}
+
+
+
